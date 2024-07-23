@@ -1,0 +1,107 @@
+body{
+    background-image: url('Images/pexels-julian-paolo-dayag-1673973.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* AUTHENTICATION PAGES */
+.msg{
+    display: none;
+    width: 100%;
+    margin: 5px auto;
+    padding: 8px;
+    border: 32px;
+}
+
+.success{
+    color: #F0FFF0;
+    border: 1px solid #033303;
+    background-color: #469946;
+    border-radius: 12px;
+    list-style: none;
+}
+
+.error{
+    color: #FFFFFF;
+    border: 1px solid #ff5757;
+    background-color: rgb(255, 143, 143);
+    border-radius: 12px;
+    list-style: none;
+}
+
+
+.auth-content{
+    width: 30%;
+    margin: 50px auto;
+    padding:20px;
+    background: #FFFFFF;
+}
+
+.auth-content .form-title{
+    text-align: center;
+}
+
+.auth-content input{
+    padding: 0.7rem 1rem;
+    display: block;
+    width: 100%;
+    border:1px solid #B2BEB5;
+    border-radius: 12px;
+    outline: none;
+    color:  #1A1C1A;
+    font-size: 1em;
+    line-height: 1.5rem;
+
+    background-color: #F0FFF0;
+    transition: background-color 0.3s ease;
+}
+
+.auth-content button{
+    color: #F0FFF0;
+    font-size: 20px;
+
+    border:transparent;
+    border-radius: 12px;
+
+    margin:auto;
+    padding: 0.7rem 1.3rem;
+    line-height: 1.3rem;
+    
+    background-color: #469946;
+    transition: background-color 0.3s ease;
+}
+
+.auth-content button:hover{
+    background-color: #033303;
+}
+
+.auth-content form div{
+    margin-bottom: 10px;
+}
+
+.auth-content p{
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 900px){
+    .auth-content{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .auth-content{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .auth-content{
+        width: 90%;
+    }
+}
+
+
+
+
